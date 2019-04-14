@@ -10,8 +10,8 @@ Footloose creates containers like VM. More details [here](https://github.com/wea
 
 #### 1. Install footloose
 
-. Change resource available to docker to 8gb
-. Please follow the steps in this [repo](https://github.com/weaveworks/footloose)
+> Change resource available to docker to 8gb
+> Please follow the steps in this [repo](https://github.com/weaveworks/footloose)
 
 #### 2. Clone this repo
 
