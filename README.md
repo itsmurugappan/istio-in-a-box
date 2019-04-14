@@ -10,8 +10,8 @@ Footloose creates containers like VM. More details [here](https://github.com/wea
 
 #### 1. Install footloose
 
-> Change resource available to docker to 8gb
-> Please follow the steps in this [repo](https://github.com/weaveworks/footloose)
+* Change resource available to docker to 8gb
+*  Please follow the steps in this [repo](https://github.com/weaveworks/footloose)
 
 #### 2. Clone this repo
 
@@ -47,8 +47,8 @@ oc apply -n myproject -f https://raw.githubusercontent.com/Maistra/bookinfo/mast
 ```
 #### 5. Openshift console
 
-. https://127.0.0.1:8443
-. Login creds : developer/test
+* https://127.0.0.1:8443
+* Login creds : developer/test
 
 #### 6. Alter host file
 
@@ -60,12 +60,12 @@ Edit your host file to update the localhost line
 
 #### 7. Change the openshift routes
 
-. Delete the routes created for ingressgateway and other apps.
-. Create the route with respective host name like "ingressgateway-svc.ose" for ingressgateway
+* Delete the routes created for ingressgateway and other apps.
+* Create the route with respective host name like "ingressgateway-svc.ose" for ingressgateway
 
 #### 8. Check out the app
 
-. Open firefox browser and hit ingressgateway-svc.ose end point, you should see the bookstore app.
+* Open firefox browser and hit ingressgateway-svc.ose end point, you should see the bookstore app.
 
 #### 9. Clean up
 
