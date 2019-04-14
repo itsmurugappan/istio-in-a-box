@@ -22,4 +22,4 @@ machines:
       destination: /var/lib/docker
     - type: bind
       destination: /tmp/files
-      source: /Developer/Work/misc/istio-in-a-box/files
+      source: /Developer/Applications/footloose/files

@@ -19,7 +19,7 @@ Footloose creates containers like VM. More details [here](https://github.com/wea
 cd istio-in-a-box
 ```
 
-check the source path in footloose.yaml
+check the source path in footloose.yaml. Make sure the path is Docker daemon accessible.
 
 #### 3. Start the container, ssh and install openshift and istio
 
@@ -36,6 +36,10 @@ export PATH=$PATH:`pwd`/openshift
 #### 4. Run the Istio book example
 
 ```jshell
+
+# check if the istio control plane is up
+
+oc get pods -n istio-system
 
 oc adm policy add-scc-to-user anyuid -z default -n myproject
 oc adm policy add-scc-to-user privileged -z default -n myproject
@@ -65,7 +69,7 @@ Edit your host file to update the localhost line
 
 #### 8. Check out the app
 
-* Open firefox browser and hit ingressgateway-svc.ose end point, you should see the bookstore app.
+* Open firefox browser and hit ingressgateway-svc.ose/productpage end point, you should see the bookstore app.
 
 #### 9. Clean up
 
