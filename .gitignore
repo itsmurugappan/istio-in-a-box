@@ -35,3 +35,7 @@ nbdist/
 TODO.md
 todo/
 out
+
+##### footloose ####
+cluster-key
+cluster-key.pub
